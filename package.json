@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "creating weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5h1zuu/weather-app.git"
+  },
+  "author": "Shizuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5h1zuu/weather-app/issues"
+  },
+  "homepage": "https://github.com/5h1zuu/weather-app#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
