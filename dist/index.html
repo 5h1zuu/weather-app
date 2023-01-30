@@ -9,32 +9,26 @@
 </head>
 <body>
     <div id="heading">
-        <button id="dark">Dark</button>
         <h1 id="name">Weather-App</h1>
-        <div id="searchDiv">
-            <input id="searchValue" type="text" placeholder="Search">
-            <button id="searchBtn">Search</button>
-        </div>
+    </div>
+
+    <div id="searchDiv">
+        <input id="searchValue" type="text" placeholder="Search">
+        <button id="searchBtn">Search</button>
     </div>
 
 
     <div id="mainContent">
         <div class="weatherDiv">
+            <h2 id="cityName"></h2>            
             <p id="weatherType"></p>
-            <h2 id="cityName"></h2>
-            <div id="tempDiv">
-                <div id="temperature"></div>
-                <div id="info">
+                <div id="tempDiv">
+                    <p id="temperature"></p>
                     <p id="feel"></p>
-                    <p id="high"></p>
                     <p id="humidity"></p>
+                    <p id="wind"></p>
                 </div>
             </div>
-            <div id="toggleTemp"></div>
-        </div>
-
-        <div class="weatherPic">
-            <img src="#" alt="">
         </div>
     </div>
 

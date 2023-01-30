@@ -2,13 +2,73 @@
 
 body{
     background-color: rgb(10, 138, 177);
+    display: flex;
+    flex-direction: column;
 }
 
 #heading{
     display: flex;
     background-color: black;
-    color: white;
-    justify-content: space-between;
+    color: rgb(10, 138, 177);
+    justify-content: center;
+    align-items: center;
     padding: 35px;
 }
 
+#searchDiv, #mainContent{
+    margin-top: 50px;
+    align-self: center;
+
+}
+
+#mainContent{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    display: none;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+#cityName{
+    color:rgb(10, 138, 177) ;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#weatherType{
+    font-size: 30px;
+}
+
+#temperature{
+    font-size: 40px;
+}
+
+#tempDiv{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+#feel, #humidity, #wind{
+    font-size: 20px;
+}
+
+#searchValue, #searchBtn{
+    height: 35px;
+    border-radius: 5px;
+    border:none
+}
+
+#searchValue{
+    padding-left: 5px;
+}
+
+#searchBtn{
+    width: 50px;
+}
