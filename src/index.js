@@ -1,10 +1,13 @@
-const weatherDiv = document.getElementById("weatherDiv")
+import { getTemp } from "./getWeather"
 
-async function getWeather(){
-    const response = await fetch('https://api.openweathermap.org/data/2.5/onecall?lat=33&lon=44&exclude=minutely&appid=c1b647a23c9bdda2769d0c7cde5b0042', {mode:"cors"})
-    const weatherData = await response.json()
-    console.log(weatherData)
+const weatherDiv = document.querySelector(".weatherDiv")
+const weatherType = document.getElementById("#weatherType")
+const cityName = document.getElementById("cityName")
+const temperature = document.getElementById("temperature")
+const feel = document.getElementById("feel")
+const high = document.getElementById("high")
+const humidity = document.getElementById("humidity")
+const searchBtn = document.getElementById("searchBtn")
 
-}
 
-getWeather()
+searchBtn.addEventListener("click",getTemp)

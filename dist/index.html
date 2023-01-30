@@ -8,7 +8,35 @@
     <link rel="stylesheet" href="../src/styles.css">
 </head>
 <body>
-    <div class="weatherDiv"></div>
+    <div id="heading">
+        <button id="dark">Dark</button>
+        <h1 id="name">Weather-App</h1>
+        <div id="searchDiv">
+            <input id="searchValue" type="text" placeholder="Search">
+            <button id="searchBtn">Search</button>
+        </div>
+    </div>
+
+
+    <div id="mainContent">
+        <div class="weatherDiv">
+            <p id="weatherType"></p>
+            <h2 id="cityName"></h2>
+            <div id="tempDiv">
+                <div id="temperature"></div>
+                <div id="info">
+                    <p id="feel"></p>
+                    <p id="high"></p>
+                    <p id="humidity"></p>
+                </div>
+            </div>
+            <div id="toggleTemp"></div>
+        </div>
+
+        <div class="weatherPic">
+            <img src="#" alt="">
+        </div>
+    </div>
 
 
 
